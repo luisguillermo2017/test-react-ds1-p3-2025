@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import Saludo from './components/Saludo';
 import Titulo from './components/Titulo';
+import Prueba from './components/Prueba';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           Learn React
         </a>
       </header>
+      <Prueba />
     </div>
   );
 }
