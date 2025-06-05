@@ -1,12 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
 import Saludo from './components/Saludo';
+import Titulo from './components/Titulo';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <Saludo nombre="Carlos" />
+        <Titulo titulo="Hola mundo desde el componente titulo" />
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
