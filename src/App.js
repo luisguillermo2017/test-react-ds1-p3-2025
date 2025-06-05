@@ -1,4 +1,5 @@
 import logo from './logo.svg';
+import CardWelcome from './components/cardwelcome';
 import './App.css';
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
+        <CardWelcome />
         <a
           className="App-link"
           href="https://reactjs.org"
