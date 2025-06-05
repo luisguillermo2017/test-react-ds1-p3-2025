@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-
+import Tarjeta from './components/Tarjeta';
 function App() {
   return (
     <div className="App">
@@ -17,6 +17,8 @@ function App() {
         >
           Learn React
         </a>
+        <Tarjeta nombre="Rafael" descripcion="Esta es un descripción de prueba"/>
+
       </header>
     </div>
   );
